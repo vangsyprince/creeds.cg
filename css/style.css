@@ -518,8 +518,12 @@ h6,
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: var(--dark);
+    background: var(--primary);
     transition: .5s;
+}
+
+.project-title h5{
+    font-size: 15px;
 }
 
 .project-item:hover .project-title,
@@ -685,7 +689,7 @@ h6,
 
 /*** Footer ***/
 .footer {
-    color: #B0B9AE;
+    color: #ffffff;
 }
 
 .footer .btn.btn-link {
@@ -693,7 +697,7 @@ h6,
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: #B0B9AE;
+    color: #ffffff;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -708,7 +712,6 @@ h6,
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--light);
     letter-spacing: 1px;
     box-shadow: none;
 }

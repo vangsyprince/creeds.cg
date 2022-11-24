@@ -100,11 +100,19 @@
             <div class="modal-body">
                 <form>
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label rounded">Nom(s) & Prénom(s) ou Nom de l'Entreprise</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <label for="exampleInputEmail1" class="form-label">Nom(s) & Prénom(s) ou Nom de l'Entreprise</label>
+                      <input type="email" class="form-control" placeholder="Ex : O'dellya Consulting" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label rounded">Type de devis</label>
+                      <label for="exampleInputEmail1" class="form-label" >Téléphone</label>
+                      <input type="email" class="form-control" placeholder="Ex : +242 06 123 45 67" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label" >Email</label>
+                        <input type="email" class="form-control" placeholder="Ex : contact@creeds-bg.cg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Type de devis</label>
                         <select class="form-select" aria-label="Default select example">
                             <option selected>--- Selectionnez le type de devis---</option>
                             <option value="1">Dévis descriptif</option>
@@ -114,13 +122,25 @@
                     </div>
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Expression du besoin</label>
-                      <textarea class="form-control rounded" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      <textarea class="form-control rounded" placeholder="Votre message ici" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
+                    <div class="mb-3">
+                      <label class="form-label ">Désirez-vous une rencontre téléphonique ?</label>
+                      <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">Oui</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">Non</label>
+                        </div>                    
+                    </div>
+                    
                   </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn fw-bold "data-bs-dismiss="modal">Fermer</button>
-              <button type="button" class="btn btn-primary">Soumettre la demande</button>
+              <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-yellow">Soumettre la demande</button>
             </div>
           </div>
         </div>
@@ -342,7 +362,7 @@
         <div class="container">
             <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="fw-medium text-uppercase text-primary mb-2">Nos Services</p>
-                <h1 class="display-5 mb-4">Nous fournissons les meilleurs services industriels</h1>
+                <h1 class="display-5 mb-4">Nous vous offrons des services de qualité</h1>
             </div>
             <div class="row d-flex justify-content-center gy-5 gx-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -420,25 +440,25 @@
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-1.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Lorem, ipsum.</h5>
+                    <h5 class="text-white mb-0">Ligne de traitement de la farine de poisson</h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-2.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Lorem, ipsum.</h5>
+                    <h5 class="text-white mb-0">Machine de transformation de fruits et légumes</h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-3.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Lorem, ipsum dolor.</h5>
+                    <h5 class="text-white mb-0">Tracteur agricole 120-200HP</h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="img/project-4.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Lorem ipsum dolor sit amet.</h5>
+                    <h5 class="text-white mb-0">Lorem ipsum dolor sit amet.</h5>
                 </div>
             </a>
         </div>
