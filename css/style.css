@@ -158,6 +158,12 @@ h6,
     margin-left: 8px;
 }
 
+@media (max-width: 497px){
+    .mar-to{
+        margin-top: 10px;
+    }
+}
+
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
