@@ -266,7 +266,7 @@ h6,
 .facts {
     position: relative;
     margin: 6rem 0;
-    background: var(--yellow);
+    background: rgba(255, 199, 14,.15);
 }
 
 .facts .border {
